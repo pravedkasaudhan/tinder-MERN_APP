@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    z-index: 100;
+    border-bottom: 3px solid lightpink;
+}
+.header_logo{
+    object-fit:contain;
+    height: 60px;
+    padding:10px;
+}
+.header_icon{
+    padding:10px;
+}
