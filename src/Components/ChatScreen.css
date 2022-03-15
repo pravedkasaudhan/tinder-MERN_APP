@@ -1,0 +1,44 @@
+.chat_message,.user_message{
+    display: flex;
+    padding:10px;
+    align-items: center;
+}
+
+.message{
+    margin:0px 20px;
+    background-color: rgb(245, 208, 208);
+    padding:10px;
+    border-radius: 30px;
+}
+
+.title{
+    text-align: center;
+}
+
+.user_text{
+    margin-left: auto;
+    background-color: aqua;
+    padding:10px;
+    border-radius: 30px;
+
+}
+
+.messgae_input{
+    height: 30px;
+    display: flex;
+    position:fixed;
+    bottom: 0vh;
+    width:100%;
+    padding:10px;
+}
+.user_input{
+    flex:1;
+    border: none;
+    font-size: medium;
+    padding:5px;
+}
+.send_btn{
+    margin:0px 20px;
+    border:none;
+    background-color: navajowhite;
+}

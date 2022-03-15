@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from 'react';
 import './TinderCards.css';
 import TinderCard from 'react-tinder-card';
-import axios from './axios';
+import axios from '../axios';
 
 
 function TinderCards() {
